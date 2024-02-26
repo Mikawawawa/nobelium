@@ -15,6 +15,17 @@ class MyDocument extends Document {
       dark: 'dark'
     }[config.appearance]
 
+    const { pathname } = this.props.__NEXT_DATA__.page;
+
+    // 根据路径进行逻辑判断，返回不同的字符串
+    let pageContent;
+    if (pathname.indexOf('/ZOOM_verify_kC3PMZY4fKOaOC2ShNjui1') >= 0) {
+      return <Html>
+        kC3PMZY4fKOaOC2ShNjui1
+      </Html>
+    }
+
+
     return (
       <Html lang={config.lang} className={cn(initialColorScheme)}>
         <Head>
