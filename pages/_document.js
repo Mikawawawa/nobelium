@@ -87,7 +87,9 @@ class MyDocument extends Document {
             )}
           <link rel="icon" href="/favicon.png" />
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
-          <meta name="zoom-domain-verification" content="4b7b7e50bfe846dd912b6c318ad5cb10"></meta>
+          {/* <meta name="zoom-domain-verification" content="4b7b7e50bfe846dd912b6c318ad5cb10"></meta> */}
+          <meta name="zoom-domain-verification" content="ZOOM_verify_95493579a9aa4f5cae5b00a4a21cf2f4"></meta>
+
           {config.appearance === 'auto'
             ? (
               <>
